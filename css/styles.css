@@ -1,8 +1,17 @@
 body {
-    color: #757575;
+    color: #333333;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     min-height: 100vh;
+}
+
+a {
+    color: #333333;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #00c585;
 }
 
 h1,
@@ -33,29 +42,16 @@ button:hover {
     color: #00c585;
 }
 
-footer {
-    background-color: #f3f2ef;
-    padding: 20px 0;
-    position: sticky;
-    top: 100%;
-    margin-top: 100px;
-}
-
 footer a {
-    color: #f36e20;
+    color: #757575;
 }
 
 footer a:hover {
     color: #00c585;
 }
 
-a {
-    color: black;
-}
-
-a:hover {
-    text-decoration: none;
-    color: #f36e20;
+table {
+    border: 1px solid #ebebeb;
 }
 
 .breadcrumb {
@@ -71,6 +67,18 @@ a:hover {
     color: #40d9ac;
 }
 
+.bg-primary {
+    background-color: #41305c !important;
+}
+
+.card {
+    border-radius: 20px;
+}
+
+.card-header {
+    border-radius: 20px 20px 0px 0px !important;
+}
+
 .logo {
     width: 250px;
 }
@@ -80,11 +88,11 @@ a:hover {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: black;
+    color: #333333;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #f36e20;
+    color: #00c585;
 }
 
 .navbar-light .navbar-toggler {
@@ -92,7 +100,7 @@ a:hover {
 }
 
 .nav-link {
-    color: #000;
+    color: #333333;
 }
 
 .row-content {
@@ -101,7 +109,19 @@ a:hover {
     min-height: 200px;
 }
 
+.site-footer {
+    background-color: #f3f2ef;
+    padding: 20px 0;
+    position: sticky;
+    top: 100%;
+    margin-top: 100px;
+}
+
 .social-logo {
     width: 35px;
     padding: 5px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f3f2ef;
 }
