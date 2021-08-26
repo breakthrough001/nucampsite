@@ -1,35 +1,68 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    color: #757575;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    min-height: 100vh;
 }
 
 h1,
 h2,
-h3 {
-    font-family: 'Arvo', serif;
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Nunito', sans-serif;
     font-weight: 700;
-}
-
-h2 {
-    color: #3046c5;
-}
-
-header h2 {
-    color: #cec8ff;
+    color: #333333;
 }
 
 footer {
-    background-image: linear-gradient(#cec8ff, white);
+    background-color: #f3f2ef;
     padding: 20px 0;
+    position: sticky;
+    top: 100%;
 }
 
-.jumbotron-fluid {
-    padding: 30px;
-    background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
-    color: white;
+footer a {
+    color: #f36e20;
+}
+
+footer a:hover {
+    color: #00c585;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f36e20;
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+.logo {
+    width: 250px;
+}
+
+.navbar {
+    background-color: #f3f2ef;
+}
+
+.nav-link {
+    color: #000;
 }
 
 .row-content {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
+}
+
+.social-logo {
+    width: 35px;
+    padding: 5px;
 }
