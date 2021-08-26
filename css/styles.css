@@ -16,11 +16,29 @@ h6 {
     color: #333333;
 }
 
+button {
+    background-color: rgb(0, 197, 133);
+    color: white;
+    font-weight: 700;
+    padding: 10px 30px 30px;
+    border: 3px solid #00c585;
+    border-radius: 24px;
+    height: 45px;
+    transition: all 0.25s ease 0s;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 3px solid #00c585;
+    color: #00c585;
+}
+
 footer {
     background-color: #f3f2ef;
     padding: 20px 0;
     position: sticky;
     top: 100%;
+    margin-top: 100px;
 }
 
 footer a {
@@ -44,12 +62,33 @@ a:hover {
     background-color: transparent;
 }
 
+.btn-link {
+    color: #40d9ac;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+    color: #40d9ac;
+}
+
 .logo {
     width: 250px;
 }
 
 .navbar {
     background-color: #f3f2ef;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f36e20;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
 }
 
 .nav-link {
