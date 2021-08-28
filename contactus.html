@@ -7,7 +7,12 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
         <!-- Additional CSS must be placed after Bootstrap CSS -->
-        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        />
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
         <!-- Custom Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,7 +24,7 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="css/styles.css" />
 
-        <title>Contact NuCamp:</title>
+        <title>NuCamp: A Better Way To Camp</title>
         <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
     </head>
 
@@ -27,7 +32,7 @@
         <nav class="navbar navbar-expand-lg navbar-light sticky-top">
             <div class="container">
                 <a class="navbar-brand" href="index.html"
-                    ><img class="logo pt-1" src="img/logo.png" alt=""
+                    ><img class="logo pt-2" src="img/logo.png" alt=""
                 /></a>
                 <button
                     class="navbar-toggler"
@@ -53,9 +58,7 @@
                             >
                         </li>
                         <li class="nav-item pr-4">
-                            <a class="nav-link" href="#"
-                                ><i class="fa fa-list fa-lg pr-2"></i> Sites</a
-                            >
+                            <a class="nav-link" href="#"><i class="fas fa-campground"></i> Sites</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contactus.html"
@@ -66,6 +69,7 @@
                 </div>
             </div>
         </nav>
+
         <header></header>
         <div class="container">
             <div class="row">
@@ -77,6 +81,34 @@
                     <h2>Contact Us</h2>
 
                     <hr />
+                </div>
+            </div>
+
+            <div class="row row-content align-items-center">
+                <div class="col-sm-4">
+                    <h5>Our Address</h5>
+                    <address>
+                        1 Nucamp Way<br />
+                        Seattle, WA 98001<br />
+                        U.S.A.
+                    </address>
+                </div>
+                <div class="col">
+                    <a role="button" class="btn" href="tel:+12065551234"
+                        ><i class="fa fa-phone"></i> 1-206-555-1234</a
+                    ><br />
+                    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"
+                        ><i class="fa fa-envelope-o"></i> campsites@nucamp.co</a
+                    >
+                </div>
+            </div>
+
+            <div class="row row-content">
+                <div class="col-12">
+                    <h2>Send us your Feedback</h2>
+                    <hr />
+                </div>
+                <div class="col-md-10">
                     <form>
                         <div class="form-group row">
                             <label for="firstName" class="col-md-2 col-form-label"
@@ -178,46 +210,19 @@
                         </div>
                         <div class="form-group row">
                             <div class="offset-md-2 col-md-10">
-                                <button type="submit" class="">Send Feedback</button>
+                                <button type="submit" class="">Submit</button>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
-
-            <div class="row row-content align-items-center">
-                <div class="col-sm-4">
-                    <h5>Our Address</h5>
-                    <address>
-                        1 Nucamp Way<br />
-                        Seattle, WA 98001<br />
-                        U.S.A.
-                    </address>
-                </div>
-                <div class="col">
-                    <a role="button" class="btn btn-link" href="tel:+12065551234"
-                        ><i class="fa fa-phone"></i> 1-206-555-1234</a
-                    ><br />
-                    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"
-                        ><i class="fa fa-envelope-o"></i> campsites@nucamp.co</a
-                    >
-                </div>
-            </div>
-
-            <div class="row row-content">
-                <div class="col-12">
-                    <h2>Send us your Feedback</h2>
-                    <hr />
-                </div>
-                <div class="col-md-10">Form goes here</div>
-            </div>
         </div>
 
-        <footer class="site-footer">
+        <footer class="site-footer pb-5">
             <div class="container">
-                <div class="row">
+                <div class="row pt-5">
                     <div class="col-4 col-sm-2 offset-1">
-                        <h5>Links</h5>
+                        <h5 class="pb-2">Links</h5>
                         <ul class="list-unstyled">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="aboutus.html">About</a></li>
@@ -226,15 +231,15 @@
                         </ul>
                     </div>
                     <div class="col-6 col-sm-5 text-center">
-                        <h5>Social</h5>
-                        <a href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                        <a href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                        <a href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                        <a href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                        <h5 class="pb-2">Social</h5>
+                        <a href="http://instagram.com/"><i class="fab fa-instagram fa-lg pr-2"></i></a>
+                        <a href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg pr-2"></i></a>
+                        <a href="http://twitter.com/"><i class="fab fa-twitter fa-lg pr-2"></i></a>
+                        <a href="http://youtube.com/"><i class="fab fa-youtube fa-lg"></i></a>
                     </div>
                     <div class="col-sm-4 text-center">
-                        Tel: 1-206-555-1234<br />
-                        Email: campsites@nucamp.co
+                        <strong>Tel:</strong> 1-206-555-1234<br />
+                        <strong>Email:</strong> campsites@nucamp.co
                     </div>
                 </div>
             </div>

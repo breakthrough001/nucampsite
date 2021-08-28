@@ -7,7 +7,12 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
         <!-- Additional CSS must be placed after Bootstrap CSS -->
-        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+        />
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
         <!-- Custom Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,11 +27,12 @@
         <title>NuCamp: A Better Way To Camp</title>
         <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
     </head>
+
     <body>
         <nav class="navbar navbar-expand-lg navbar-light sticky-top">
             <div class="container">
                 <a class="navbar-brand" href="index.html"
-                    ><img class="logo pt-1" src="img/logo.png" alt=""
+                    ><img class="logo pt-2" src="img/logo.png" alt=""
                 /></a>
                 <button
                     class="navbar-toggler"
@@ -52,9 +58,7 @@
                             >
                         </li>
                         <li class="nav-item pr-4">
-                            <a class="nav-link" href="#"
-                                ><i class="fa fa-list fa-lg pr-2"></i> Sites</a
-                            >
+                            <a class="nav-link" href="#"><i class="fas fa-campground"></i> Sites</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contactus.html"
@@ -65,6 +69,7 @@
                 </div>
             </div>
         </nav>
+
         <header></header>
 
         <div class="container">
@@ -81,7 +86,7 @@
 
             <div class="row row-content">
                 <div class="col-sm-6">
-                    <h3>Our Mission</h3>
+                    <h3 class="pb-3">Our Mission</h3>
                     <p>
                         We present a curated database of the best campsites in the vast woods and
                         backcountry of the World Wide Web Wilderness. We increase access to
@@ -110,9 +115,9 @@
                     </div>
                 </div>
                 <div class="col pt-3">
-                    <div class="card bg-light mt-3">
+                    <div class="card bg-light mt-3 quote">
                         <blockquote class="blockquote card-body">
-                            <p class="mb-0 font-italic">
+                            <p class="mb-0 font-italic pb-2">
                                 "I will not follow where the path may lead, but I will go where
                                 there is no path, and I will leave a trail.""
                             </p>
@@ -129,9 +134,9 @@
 
             <div class="row row-content">
                 <div class="col-sm-9">
-                    <h2>Facts &amp; Figures</h2>
+                    <h2 class="pb-3">Facts &amp; Figures</h2>
                     <div class="table-responsive">
-                        <table class="table table-striped">
+                        <table class="table table-striped roundedCorners">
                             <thead>
                                 <tr class="bg-primary text-light">
                                     <th></th>
@@ -167,19 +172,19 @@
 
             <div class="row pt-5">
                 <div class="col">
-                    <h3>Community Partners</h3>
+                    <h3 class="pb-3">Community Partners</h3>
                     <h4>Bootstrap Outfitters <small>Outdoor Gear Specialists</small></h4>
-                    <p class="d-none d-sm-block">
+                    <p class="d-none d-sm-block pb-3">
                         Bootstrap Outfitters supplies you with the gear you need at prices you can't
                         beat.
                     </p>
                     <h4>Git Out Expeditions <small>Group Adventure Expeditions</small></h4>
-                    <p class="d-none d-sm-block">
+                    <p class="d-none d-sm-block pb-3">
                         Join Git Out Expeditions to explore new horizons with a group of other
                         adventurers!
                     </p>
                     <h4>Mongo Fly Shop <small>Your Neighborhood Fly Fishing Shop</small></h4>
-                    <p class="d-none d-sm-block">
+                    <p class="d-none d-sm-block pb-3">
                         Need a new fishing pole, a tacklebox, or flies of all kinds? Stop by Mongo
                         Fly Shop.
                     </p>
@@ -192,11 +197,11 @@
             </div>
         </div>
 
-        <footer class="site-footer">
+        <footer class="site-footer pb-5">
             <div class="container">
-                <div class="row">
+                <div class="row pt-5">
                     <div class="col-4 col-sm-2 offset-1">
-                        <h5>Links</h5>
+                        <h5 class="pb-2">Links</h5>
                         <ul class="list-unstyled">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="aboutus.html">About</a></li>
@@ -205,18 +210,27 @@
                         </ul>
                     </div>
                     <div class="col-6 col-sm-5 text-center">
-                        <h5>Social</h5>
-                        <a href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                        <a href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                        <a href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                        <a href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                        <h5 class="pb-2">Social</h5>
+                        <a href="http://instagram.com/"
+                            ><i class="fab fa-instagram fa-lg pr-2"></i
+                        ></a>
+                        <a href="http://facebook.com/"
+                            ><i class="fab fa-facebook-f fa-lg pr-2"></i
+                        ></a>
+                        <a href="http://twitter.com/"><i class="fab fa-twitter fa-lg pr-2"></i></a>
+                        <a href="http://youtube.com/"><i class="fab fa-youtube fa-lg"></i></a>
                     </div>
                     <div class="col-sm-4 text-center">
-                        Tel: 1-206-555-1234<br />
-                        Email: campsites@nucamp.co
+                        <strong>Tel:</strong> 1-206-555-1234<br />
+                        <strong>Email:</strong> campsites@nucamp.co
                     </div>
                 </div>
             </div>
         </footer>
+
+        <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     </body>
 </html>

@@ -51,8 +51,7 @@ footer a:hover {
 }
 
 img {
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgb(0 0 0 / 90%);
+    border-radius: 15px;
 }
 
 table {
@@ -79,16 +78,13 @@ table {
     background-color: #41305c !important;
 }
 
-.bootstrap-logo {
-    box-shadow: none;
-}
-
-.card {
+.quote {
     border-radius: 20px;
 }
 
 .card-header {
-    border-radius: 20px 20px 0px 0px !important;
+    border-radius: 0 !important;
+    background-color: #41305c !important;
 }
 
 .ghost {
@@ -106,7 +102,11 @@ table {
     color: white;
 }
 
-/* Hero Section */
+/* HERO SECTION */
+
+.hero-container {
+    padding-top: 150px;
+}
 
 .hero-row {
     height: 600px;
@@ -134,7 +134,9 @@ table {
     padding-left: 0;
 }
 
-/* */
+.list-unstyled {
+    line-height: 2;
+}
 
 .logo {
     width: 250px;
@@ -142,6 +144,18 @@ table {
 
 .navbar {
     background-color: #f3f2ef;
+}
+
+.navButton {
+    padding-top: -300px;
+}
+
+.nav-item a {
+    color: #fff;
+}
+
+.nav-item button {
+    padding-bottom: 32px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -174,18 +188,13 @@ table {
     margin-top: 100px;
 }
 
-.social-logo {
-    width: 35px;
-    padding: 5px;
-}
-
 .table-striped tbody tr:nth-of-type(odd) {
     background-color: #f3f2ef;
 }
 
 /* MEDIA QUERIES */
 
-@media only screen and (min-width: 481px) and (max-width: 1024px) {
+@media only screen and (min-width: 375px) and (max-width: 767px) {
     .hero-row h1 {
         font-size: 32px;
     }
