@@ -54,6 +54,18 @@ img {
     border-radius: 15px;
 }
 
+nav {
+    background-color: #ebebeb;
+}
+
+a.nav-link {
+    color: #333333 !important;
+}
+
+a.nav-link:hover {
+    color: #40d9ac !important;
+}
+
 table {
     border: 1px solid #ebebeb;
 }
@@ -120,7 +132,8 @@ table {
 
 .hero-section {
     background-image: url('/img/hero-img.png');
-    height: 95vh;
+    height: 100vh;
+    position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,12 +155,8 @@ table {
     width: 250px;
 }
 
-.navbar {
-    background-color: #f3f2ef;
-}
-
-.navButton {
-    padding-top: -300px;
+link .navButton {
+    padding: -300px !important;
 }
 
 .nav-item a {
@@ -186,6 +195,12 @@ table {
     position: sticky;
     top: 100%;
     margin-top: 100px;
+}
+
+.tab-content {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 10px;
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
