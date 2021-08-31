@@ -22,7 +22,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #00c585;
+    color: #40d9ac;
 }
 
 button {
@@ -39,7 +39,7 @@ button {
 button:hover {
     background-color: transparent;
     border: 3px solid #40d9ac;
-    color: #40d9ac;
+    color: #40d9ac !important;
 }
 
 footer a {
@@ -99,6 +99,10 @@ table {
     background-color: #41305c !important;
 }
 
+.close:hover {
+    border: none !important;
+}
+
 .quote {
     border-radius: 20px;
 }
@@ -121,6 +125,25 @@ table {
 
 .ghost a {
     color: white;
+}
+
+.ghost-login {
+    color: #40d9ac;
+    background-color: #fff;
+    border-radius: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ghost-login:hover {
+    background-color: #40d9ac;
+    color: white !important;
+}
+
+.login-btn {
+    border-radius: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 /* HERO SECTION */
@@ -160,16 +183,16 @@ table {
     line-height: 2;
 }
 
+.login {
+    padding-top: 12px;
+}
+
+.login:hover {
+    color: #40d9ac;
+}
+
 .logo {
     width: 250px;
-}
-
-link .navButton {
-    padding: -300px !important;
-}
-
-.nav-item a {
-    color: #fff;
 }
 
 .nav-item button {
@@ -223,4 +246,8 @@ link .navButton {
     .hero-row h1 {
         font-size: 32px;
     }
+}
+
+.prime:hover {
+    color: red !important;
 }
