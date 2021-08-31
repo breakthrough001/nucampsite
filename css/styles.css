@@ -17,7 +17,7 @@ h6 {
 }
 
 a {
-    color: #333333;
+    color: #fff;
 }
 
 a:hover {
@@ -68,6 +68,15 @@ a.nav-link:hover {
 
 table {
     border: 1px solid #ebebeb;
+}
+
+.accordion a {
+    color: #fff;
+    cursor: pointer;
+}
+
+.accordion h4 {
+    color: #fff;
 }
 
 .bg-light {
@@ -200,6 +209,7 @@ link .navButton {
 .tab-content {
     border: 1px solid #ddd;
     border-top: none;
+    border-radius: 8px;
     padding: 10px;
 }
 
