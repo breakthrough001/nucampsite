@@ -112,6 +112,10 @@ table {
     background-color: #41305c !important;
 }
 
+.carousel-caption h3 {
+    color: #fff;
+}
+
 .ghost {
     background-color: transparent;
     padding-bottom: 32px;
@@ -195,6 +199,11 @@ table {
     width: 250px;
 }
 
+.main-text {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
 .nav-item button {
     padding-bottom: 32px;
 }
@@ -229,6 +238,10 @@ table {
     margin-top: 100px;
 }
 
+.slider-section {
+    margin-bottom: 80px;
+}
+
 .tab-content {
     border: 1px solid #ddd;
     border-top: none;
@@ -246,8 +259,4 @@ table {
     .hero-row h1 {
         font-size: 32px;
     }
-}
-
-.prime:hover {
-    color: red !important;
 }
