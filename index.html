@@ -43,7 +43,9 @@
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon">   
+                        <i class="fas fa-bars" style="color:#333333; font-size:28px;"></i>
+                    </span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
@@ -65,15 +67,15 @@
                                 ><i class="fa fa-address-card fa-lg pr-2"></i> Contact</a
                             >
                         </li>
-                        <li>
-                        <span class="navbar-text px-4 login">
+                        <li class="login-li">
+                        <span class="navbar-text login">
                             <a role="button" data-toggle="modal" data-target="#loginModal">
                                 <i class="fa fa-sign-in pr-2"></i> Login
                             </a>
                         </span>
                         </li>
-                        <li class="nav-item pl-3">
-                           <a href="#reserveForm" role="button"  data-toggle="tooltip" data-placement="bottom" data-html="true" title="Or call us at<br><strong>(206) 555-1234</strong>"> <button>Reserve Campsite</button></a>
+                        <li class="nav-item nav-reserve-button">
+                           <a role="button" data-toggle="modal" data-target="#reserveModal"><button>Reserve Campsite</button></a>
                             </button>
                         </li>
                     </ul>
@@ -119,6 +121,63 @@
         </div>
     </div>
 
+    <!-- Reservation Modal -->
+    <div id="reserveModal" class="modal fade " role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">Reserve a Campsite</h3>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-group row">
+                                    <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers</label>
+                                    <div class="col-sm-6">
+                                        <select class="form-control " name="numCampers" id="numCampers">
+                                            <option value="">Select...</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class=" form-group row">
+                                    <label class="col-sm-6 col-form-label" for="date">Date</label>
+                                    <div class="col-sm-6">
+                                        <input class="form-control" type="date" id="date" name="date"  placeholder="date">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-sm-6 col-form-label"  for="form-label">Campsite Type</label>
+                                    <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
+                                        <label class="btn btn-primary active radio-button">
+                                            <input type="radio" name="siteType" id="option1" autocomplete="off" checked value="tent">Tent
+                                        </label>
+                                        <label class="btn btn-success">
+                                            <input type="radio" name="siteRV" id="option2" autocomplete="off" value="rv" class="radio-button">RV
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <a href=""><button >Search</button></a>
+                                    </div>
+                                    <div class="col">
+                                        <a href=""  data-dismiss="modal"><button class="ghost-login">Cancel</button></a>
+                                    </div>
+                                </div>
+                                </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Hero Section -->
         <header class="page-header gradient hero-section">
             <div class="container hero-container">
@@ -130,7 +189,7 @@
                             into the great outdoors
                         </p>
                         <a href="#reserveForm"><button type="button">Book Now</button></a>
-                        <a href="aboutus.html"><button type="button" class="ml-3 ghost">
+                        <a href="aboutus.html"><button type="button" class="ml-3 ghost-button">
                             Learn More</a>
                         </button>
                     </div>
@@ -150,7 +209,7 @@
         </div>
 
         <!-- Carousel Slider -->
-        <div class="slider-section">
+        <div class="container slider-section">
             <div class="row">
                 <div class="col mx-auto">
                     <div id="homeCarousel" class="carousel slide" data-ride="carousel">
@@ -186,8 +245,10 @@
                                  <span class="sr-only">Previous</span>
                              </a>
                              <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
-                                <span class="carousel-control-next-icon"></span>
-                                <span class="sr-only">Next</span>
+                                <div class="slider-button">
+                                    <span class="carousel-control-next-icon"></span>
+                                    <span class="sr-only">Next</span>
+                                </div>
                              </a>
                          </div>
                     </div>
@@ -334,10 +395,6 @@
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>
 
-        <script>
-            $(function () {
-                $('[data-toggle="tooltip"]').tooltip()
-            })
-        </script>
+       
     </body>
 </html>
