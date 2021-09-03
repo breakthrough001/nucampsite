@@ -99,6 +99,15 @@ table {
     background-color: #41305c !important;
 }
 
+.btn-primary {
+    background-color: #40d9ac !important;
+}
+
+.btn-success {
+    background-color: #fff !important;
+    color: #40d9ac !important;
+}
+
 .close:hover {
     border: none !important;
 }
@@ -129,6 +138,14 @@ table {
 
 .ghost-button a {
     color: white;
+}
+
+.ghost-button-wb {
+    color: #40d9ac ;
+}
+
+.ghost-button-wb:hover {
+    color: #fff !important;
 }
 
 .ghost-login {
@@ -258,14 +275,6 @@ table {
     background-color: #f3f2ef;
 }
 
-.btn-primary {
-    background-color: #40d9ac !important;
-}
-
-.btn-success {
-    background-color: #fff !important;
-    color: #40d9ac !important;
-}
 
 /* MEDIA QUERIES */
 
