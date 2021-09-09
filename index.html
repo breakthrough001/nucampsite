@@ -86,96 +86,96 @@
         <!-- Login ModaL -->
          <div id="loginModal" class="modal fade" role="dialog">
             <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title">Login</h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <form>
-                            <div class="form-row">
-                                <div class="form-group col-12">
-                                    <label class="sr-only" for="loginEmail">Email address</label>
-                                    <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
-                                </div>
-                                <div class="form-group col-12">
-                                    <label class="sr-only" for="loginPassword">Password</label>
-                                    <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox">
-                                        <label class="form-check-label"> Remember me</label>
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Login</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group col-12">
+                                        <label class="sr-only" for="loginEmail">Email address</label>
+                                        <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
+                                    </div>
+                                    <div class="form-group col-12">
+                                        <label class="sr-only" for="loginPassword">Password</label>
+                                        <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox">
+                                            <label class="form-check-label"> Remember me</label>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="form-row">
-                                <button type="button" class=" btn-sm ml-auto login-btn mr-3" data-dismiss="modal">Cancel</button>
-                                <button type="submit" class="ghost-login login-btn btn-sm ml-1">Sign in</button>
-                            </div>
-                        </form>
+                                <div class="form-row">
+                                    <button type="button" class=" btn-sm ml-auto login-btn mr-3" data-dismiss="modal">Cancel</button>
+                                    <button type="submit" class="ghost-login login-btn btn-sm ml-1">Sign in</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
     <!-- Reservation Modal -->
     <div id="reserveModal" class="modal fade " role="dialog">
             <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title">Reserve a Campsite</h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <form>
-                            <div class="form-group row">
-                                    <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers</label>
-                                    <div class="col-sm-6">
-                                        <select class="form-control " name="numCampers" id="numCampers">
-                                            <option value="">Select...</option>
-                                            <option value="1">1</option>
-                                            <option value="2">2</option>
-                                            <option value="3">3</option>
-                                            <option value="4">4</option>
-                                            <option value="5">5</option>
-                                            <option value="6">6</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class=" form-group row">
-                                    <label class="col-sm-6 col-form-label" for="date">Date</label>
-                                    <div class="col-sm-6">
-                                        <input class="form-control" type="date" id="date" name="date"  placeholder="date">
-                                    </div>
-                                </div>
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Reserve a Campsite</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <form>
                                 <div class="form-group row">
-                                    <label class="col-sm-6 col-form-label"  for="form-label">Campsite Type</label>
-                                    <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
-                                        <label class="btn btn-primary active radio-button">
-                                            <input type="radio" name="siteType" id="option1" autocomplete="off" checked value="tent">Tent
-                                        </label>
-                                        <label class="btn btn-success">
-                                            <input type="radio" name="siteRV" id="option2" autocomplete="off" value="rv" class="radio-button">RV
-                                        </label>
+                                        <label for="numCampers" class="col-sm-6 col-form-label">Number of Campers</label>
+                                        <div class="col-sm-6">
+                                            <select class="form-control " name="numCampers" id="numCampers">
+                                                <option value="">Select...</option>
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                                <option value="6">6</option>
+                                            </select>
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="form-row">
-                                    <button type="button" class="button" data-dismiss="modal">Cancel</button>
-                                    <button type="submit" class="ml-3 ghost-button ghost-button-wb">Sign in</button>
-                                </div>
-                                </div>
-                        </form>
+                                    <div class=" form-group row">
+                                        <label class="col-sm-6 col-form-label" for="date">Date</label>
+                                        <div class="col-sm-6">
+                                            <input class="form-control" type="date" id="date" name="date"  placeholder="date">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-6 col-form-label"  for="form-label">Campsite Type</label>
+                                        <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
+                                            <label class="btn btn-primary active radio-button">
+                                                <input type="radio" name="siteType" id="option1" autocomplete="off" checked value="tent">Tent
+                                            </label>
+                                            <label class="btn btn-success">
+                                                <input type="radio" name="siteRV" id="option2" autocomplete="off" value="rv" class="radio-button">RV
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <button type="button" class="button" data-dismiss="modal">Cancel</button>
+                                        <button type="submit" class="ml-3 ghost-button ghost-button-wb">Sign in</button>
+                                    </div>
+                            </form>
+                        </div>    
                     </div>
                 </div>
             </div>
         </div>
 
         <!-- Hero Section -->
-        <header class="page-header gradient hero-section">
+        <header class="page-header hero-section">
             <div class="container hero-container">
                 <div class="row align-items-center justify-content-center hero-row">
                     <div class="col-md-7 col-lg-6">
@@ -246,6 +246,14 @@
                                     <span class="sr-only">Next</span>
                                 </div>
                              </a>
+                             <div class="btn-group" id="carouselButton">
+                                <button class="btn btn-secondary btn-sm" id="carouselPause">
+                                    <i class="fa fa-pause"></i>
+                                </button>
+                                <button class="btn btn-secondary btn-sm" id="carouselPlay">
+                                    <i class="fa fa-play"></i>
+                                </button>
+                            </div>
                          </div>
                     </div>
                 </div>
@@ -390,7 +398,17 @@
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="js/script.js"></script>
-
+        <script>
+        $(function() {
+          $(".carousel").carousel( { interval: 2000, pause: "false" } );;
+            $("#carouselPause").click(function(){
+                $(".carousel").carousel("pause");
+            });
+            $("#carouselPlay").click(function(){
+                $(".carousel").carousel("cycle");
+            });
+        });
+    </script>
        
     </body>
 </html>
