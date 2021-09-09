@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Bootstrap CSS -->
+        <!-- build:css css/main.css -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
         <!-- Additional CSS must be placed after Bootstrap CSS -->
         <link
@@ -14,6 +14,9 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/styles.css" />
+        <!-- endbuild -->
         <!-- Custom Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,9 +24,6 @@
             href="https://fonts.googleapis.com/css2?family=Domine:wght@500;600;700&family=Roboto:wght@400;700&display=swap"
             rel="stylesheet"
         />
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="css/styles.css" />
-
         <title>NuCamp: A Better Way To Camp</title>
         <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
     </head>
@@ -389,9 +389,11 @@
         </footer>
 
         <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+         <!-- build:js js/main.js -->
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="js/scripts.js"></script>       
+        <script src="js/scripts.js"></script>
+        <!-- endbuild -->       
     </body>
 </html>
