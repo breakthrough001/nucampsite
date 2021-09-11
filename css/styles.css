@@ -226,6 +226,14 @@ table {
     margin-bottom: 80px;
 }
 
+.modal-header {
+    background-color: #41305C;
+}
+
+.modal-header h3 {
+    color: #fff;
+}
+
 .nav-item button {
     padding-bottom: 32px;
 }
